@@ -4,6 +4,8 @@ interface IParams {
     listingId?: string;
 }
 
+export const dynamic = 'force-dynamic'
+
 export default async function getListingById(
     params: IParams
 ) {
